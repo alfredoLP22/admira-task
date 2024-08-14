@@ -1,0 +1,18 @@
+{
+  "campaigns": [
+    {
+      "name": "Campaign 1",
+      "impressions": 1000,
+      "clicks": 150,
+      "conversions": 20,
+      "cost": 200
+    },
+    {
+      "name": "Campaign 2",
+      "impressions": 2000,
+      "clicks": 300,
+      "conversions": 50,
+      "cost": 350
+    }
+  ]
+}

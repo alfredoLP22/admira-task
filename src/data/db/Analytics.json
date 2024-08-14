@@ -1,0 +1,20 @@
+{
+  "pageViews": [
+    { "date": "2024-08-01", "views": 300 },
+    { "date": "2024-08-02", "views": 450 }
+  ],
+  "sessions": [
+    { "date": "2024-08-01", "sessions": 200, "bounceRate": 0.35 },
+    { "date": "2024-08-02", "sessions": 300, "bounceRate": 0.40 }
+  ],
+  "demographics": {
+    "age": [
+      { "range": "18-24", "percentage": 25 },
+      { "range": "25-34", "percentage": 40 }
+    ],
+    "gender": [
+      { "type": "male", "percentage": 55 },
+      { "type": "female", "percentage": 45 }
+    ]
+  }
+}

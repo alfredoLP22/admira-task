@@ -1,0 +1,18 @@
+{
+    "ads": [
+      {
+        "name": "Ad 1",
+        "reach": 5000,
+        "engagement": 300,
+        "adSpend": 100,
+        "conversions": 30
+      },
+      {
+        "name": "Ad 2",
+        "reach": 7500,
+        "engagement": 500,
+        "adSpend": 150,
+        "conversions": 45
+      }
+    ]
+  }

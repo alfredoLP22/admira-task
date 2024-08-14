@@ -1,0 +1,100 @@
+{
+    "ads": [
+      {
+        "name": "Ad 1",
+        "reach": 5000,
+        "engagement": 300,
+        "adSpend": 100,
+        "conversions": 30
+      },
+      {
+        "name": "Ad 2",
+        "reach": 7500,
+        "engagement": 500,
+        "adSpend": 150,
+        "conversions": 45
+      },
+      {
+        "name": "Ad 3",
+        "reach": 8500,
+        "engagement": 600,
+        "adSpend": 200,
+        "conversions": 60
+      },
+      {
+        "name": "Ad 4",
+        "reach": 9500,
+        "engagement": 700,
+        "adSpend": 250,
+        "conversions": 75
+      }
+    ],
+    "campaigns": [
+      {
+        "name": "Campaign 1",
+        "impressions": 1000,
+        "clicks": 150,
+        "conversions": 20,
+        "cost": 200
+      },
+      {
+        "name": "Campaign 2",
+        "impressions": 2000,
+        "clicks": 300,
+        "conversions": 50,
+        "cost": 350
+      },
+      {
+        "name": "Campaign 3",
+        "impressions": 3000,
+        "clicks": 450,
+        "conversions": 70,
+        "cost": 500
+      },
+      {
+        "name": "Campaign 4",
+        "impressions": 4000,
+        "clicks": 600,
+        "conversions": 90,
+        "cost": 650
+      }
+    ],
+    "analytics": {
+      "pageViews": [
+        { "date": "2024-08-01", "views": 300, "uniqueViews": 250 },
+        { "date": "2024-08-02", "views": 450, "uniqueViews": 400 },
+        { "date": "2024-08-03", "views": 500, "uniqueViews": 450 },
+        { "date": "2024-08-04", "views": 600, "uniqueViews": 550 }
+      ],
+      "sessions": [
+        { "date": "2024-08-01", "sessions": 200, "bounceRate": 0.35, "avgSessionDuration": 120 },
+        { "date": "2024-08-02", "sessions": 300, "bounceRate": 0.40, "avgSessionDuration": 150 },
+        { "date": "2024-08-03", "sessions": 350, "bounceRate": 0.30, "avgSessionDuration": 180 },
+        { "date": "2024-08-04", "sessions": 400, "bounceRate": 0.25, "avgSessionDuration": 200 }
+      ],
+      "demographics": {
+        "age": [
+          { "range": "18-24", "percentage": 25, "total": 1000 },
+          { "range": "25-34", "percentage": 40, "total": 1500 },
+          { "range": "35-44", "percentage": 20, "total": 800 },
+          { "range": "45-54", "percentage": 10, "total": 400 }
+        ],
+        "gender": [
+          { "type": "male", "percentage": 55, "total": 2750 },
+          { "type": "female", "percentage": 45, "total": 2250 }
+        ]
+      }
+    },
+    "crm": {
+      "leads": [
+        { "name": "Lead 1", "acquisitionCost": 200, "lifetimeValue": 1000, "conversionRate": 0.1 },
+        { "name": "Lead 2", "acquisitionCost": 150, "lifetimeValue": 750, "conversionRate": 0.12 },
+        { "name": "Lead 3", "acquisitionCost": 180, "lifetimeValue": 850, "conversionRate": 0.15 },
+        { "name": "Lead 4", "acquisitionCost": 220, "lifetimeValue": 950, "conversionRate": 0.14 }
+      ],
+      "conversionRate": 0.08,
+      "totalLeads": 100,
+      "totalConversions": 8
+    }
+  }
+  
