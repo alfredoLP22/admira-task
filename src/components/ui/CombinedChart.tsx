@@ -17,7 +17,7 @@ import ErrorMessage from "./Error";
 import "../../styles/ModalStyles.css";
 
 const CombinedChart = () => {
-  const { data, loading, error } = useFetch("http://localhost:3001/ads");
+  const { data, loading, error } = useFetch("ads");
   const [showEngagement, setShowEngagement] = useState(true);
   const [showAdSpend, setShowAdSpend] = useState(true);
   const [showConversions, setShowConversions] = useState(true);

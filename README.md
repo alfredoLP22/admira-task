@@ -1,50 +1,20 @@
-# React + TypeScript + Vite
+# Admira task
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Setup Instructions
 
-Currently, two official plugins are available:
+1. Clone the repository: `git clone https://github.com/alfredoLP22/admira-task.git`
+2. Navigate to the project directory: `cd admira-task`
+3. Install dependencies: `npm install`
+4. Start the development server: `npm run dev`
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Design Choices
 
-## Expanding the ESLint configuration
+- **Architecture:** Separation by folders based on their utility (hooks, views, data, components). Just to clarify, I used fake data based on the information provided in the task description because during the creation of Google Ads and Meta Ads accounts, a credit card was required, which I do not have. Therefore, I used JSON Server for the fake API.
+- **Styling:** Utilized Tailwind CSS for familiarity, allowing for design flexibility, along with custom CSS for the modal.
+- **State Management:** For the sake of speed, I used props instead of a global state management system.
+- **Charts:** Chose Recharts due to its variety of chart types, compatibility, and easy integration with React, as they are designed for use in React (e.g., Recharts).
+- **Enviroment variables** Rename .env.example to .env and change VITE_API_URL inside
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Code Comments
 
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
-
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+- Check the code for inline comments explaining the more complex parts.

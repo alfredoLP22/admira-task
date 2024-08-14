@@ -16,7 +16,7 @@ import ErrorMessage from "./Error";
 import "../../styles/ModalStyles.css";
 
 const LineChartTrends = () => {
-  const { data, loading, error } = useFetch("http://localhost:3001/analytics");
+  const { data, loading, error } = useFetch("analytics");
   const [startDate, setStartDate] = useState("");
   const [endDate, setEndDate] = useState("");
   const [selectedData, setSelectedData] = useState(null);

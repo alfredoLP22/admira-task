@@ -16,7 +16,7 @@ import ErrorMessage from "./Error";
 import "../../styles/ModalStyles.css";
 
 const BarChartCampaigns = () => {
-  const { data, loading, error } = useFetch("http://localhost:3001/campaigns");
+  const { data, loading, error } = useFetch(`campaigns`);
   const [filter, setFilter] = useState("");
   const [selectedData, setSelectedData] = useState(null);
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -26,7 +26,6 @@ const BarChartCampaigns = () => {
 
   const openModal = (data) => {
     setSelectedData(data);
-    console.log(data);
     setIsModalOpen(true);
   };
 

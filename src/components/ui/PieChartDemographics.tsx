@@ -13,7 +13,7 @@ import ErrorMessage from "./Error";
 import "../../styles/ModalStyles.css";
 
 const PieChartDemographics = () => {
-  const { data, loading, error } = useFetch("http://localhost:3001/analytics");
+  const { data, loading, error } = useFetch("analytics");
   const [category, setCategory] = useState("Age");
   const [selectedData, setSelectedData] = useState(null);
   const [isModalOpen, setIsModalOpen] = useState(false);
