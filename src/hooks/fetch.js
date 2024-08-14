@@ -1,10 +1,10 @@
 import { useEffect, useState } from "react";
 const apiUrl = import.meta.env.VITE_API_URL;
 
-const useFetch = (endpoint: string) => {
-  const [data, setData] = useState<[]>([]);
-  const [loading, setLoading] = useState<boolean>(true);
-  const [error, setError] = useState<string | null>(null);
+const useFetch = (endpoint) => {
+  const [data, setData] = useState([]);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(null);
 
   useEffect(() => {
     const fetchData = async () => {
